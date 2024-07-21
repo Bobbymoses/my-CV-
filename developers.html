@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Developers</title>
+  </head>
+  <body>
+    <hr size="3" noshade="" />
+    <center>
+      <h1>WELCOME TO BOB-MANUELS FOOD HUB💝</h1>
+      <small>😋WE SELL ALL KINDS OF INTERCONTINENTAL DISHES😋.</small>
+    </center>
+    <p></p>
+    <hr size="3" noshade="" />
+    <center>
+      <table cellspacing="60">
+        <tr>
+          <td>
+            <a href="web.html"><input type="submit" value="HOME" /></a>
+          </td>
+          <td>
+            <a href="developers.html"
+              ><input type="submit" value="MAIN-MENU"
+            /></a>
+          </td>
+          <td>
+            <a href="payment.html"><input type="submit" value="PRICES" /></a>
+          </td>
+        </tr>
+      </table>
+      <img
+        src="C:\Users\DELL\Desktop\html file\bob.jpg"
+        alt="restuarant photo"
+      />
+    </center>
+    <hr size="3" />
+    <h3>food menu:</h3>
+
+    <table border="5">
+      <caption>
+        List of available foods
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">LOCAL DISHES😋</th>
+          <th scope="col">INTERCONTINENTAL DISHES😋</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>egusi soup</td>
+          <td>guacamole</td>
+        </tr>
+        <tr>
+          <td>oha soup</td>
+          <td>mushroom</td>
+        </tr>
+        <tr>
+          <td>black soup</td>
+          <td>mac & cheese</td>
+        </tr>
+        <tr>
+          <td>All kinds of rice;jellof, white, fried.</td>
+          <td>chinese shits</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size="3" />
+    <h3>FOR ICE-CREAM:</h3>
+    <small>Your Favourite Flavour is our main priority</small>
+
+    <p></p>
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input
+      list="ice-cream-flavors"
+      id="ice-cream-choice"
+      name="ice-cream-choice"
+    />
+
+    <datalist id="ice-cream-flavors">
+      <option value="Chocolate"></option>
+      <option value="Coconut"></option>
+      <option value="Mint"></option>
+      <option value="Strawberry"></option>
+      <option value="Vanilla"></option>
+    </datalist>
+    <hr size="3" />
+    <p></p>
+
+    <form class="" action="mailto:info@ubasinachimoses@yahoo.com" method="post">
+      <label for="choose">Pls select your favourite dish:</label>
+      <input type="text" id="choose" name="choose food" />
+      <p></p>
+
+      <label for="name">please enter full-name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        size="30"
+        placeholder="Last name, Firstname.."
+        required
+      />
+      <br />
+      <label for="phone"> please eneter your telNo:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="telNo"
+        size="30"
+        min="8"
+        max="15"
+        pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+        placeholder="0703-xxx-xxxx"
+        required
+      />
+      <br />
+      <label for="address">please enter your address:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="NO.25 EXAMPLE STREET, CITY, STATE, COUNTRY."
+        size="30"
+        required
+      />
+      <br />
+      <a href="#"><input type="submit" value="ORDER NOW" /></a> <br />
+      <label for="text">ENTER MESSAGE:</label>
+      <textarea name="name" id="text" row="8" col="80"></textarea>
+    </form>
+    <p></p>
+    <details>
+      <summary>EMERGENCY</summary>
+      Please You Can Contact The Following TelNo:07012556361
+    </details>
+  </body>
+</html>
